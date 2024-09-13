@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Recipes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        header {
+            background-color: #ff5722;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .recipe {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .recipe h2 {
+            margin-top: 0;
+        }
+        .recipe p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Indian Recipes</h1>
+    </header>
+    <div class="container">
+        <div class="recipe">
+            <h2>Chicken Curry</h2>
+            <img src="https://via.placeholder.com/600x400" alt="Chicken Curry">
+            <p>This spicy and flavorful chicken curry is a favorite in Indian cuisine. It's made with tender chicken pieces simmered in a rich tomato and onion gravy with a blend of aromatic spices.</p>
+        </div>
+        <div class="recipe">
+            <h2>Paneer Tikka</h2>
+            <img src="https://via.placeholder.com/600x400" alt="Paneer Tikka">
+            <p>Paneer Tikka is a popular vegetarian dish consisting of marinated paneer (Indian cottage cheese) cubes grilled to perfection. It's typically served with mint chutney and is a great appetizer or snack.</p>
+        </div>
+        <div class="recipe">
+            <h2>Chole Bhature</h2>
+            <img src="https://via.placeholder.com/600x400" alt="Chole Bhature">
+            <p>Chole Bhature is a classic North Indian dish featuring spicy chickpeas (chole) served with deep-fried bread (bhature). It's a hearty and satisfying meal enjoyed by many.</p>
+        </div>
+    </div>
+</body>
+</html>
